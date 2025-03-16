@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="" content="">
+        <title>Outras Formatações</title>
+    </head>
+    <body>
+        <h1>Outras formatações: <em>Códigos, Citações, Abreviações e Substituições Bidirecionais</em></h1>
+        <h2>Código:</h2>
+
+        <h3><code>&lt;/code&gt;</code> (código)</h3>
+
+        <p><code>&lt;/code&gt;</code> dentro de um <code>&lt;/p&gt;</code>:</p>
+
+        <ul>
+            <strong>Ex:</strong> Você pode usar <code>if</code> e <code>else</code> para tornar condicional a impressão de alguma variável.
+        </ul>
+
+        <p><code>&lt;/code&gt;</code> dentro/utilizando de um 
+        <code>&lt;/pre&gt;</code>:</p>
+
+        <ul>
+            <strong>Ex:</strong>
+            <pre>
+            <code>
+variavel_exemplo = "texto"
+variavel_condicional = false
+
+if variavel_exemplo == true:
+print(variavel_exemplo)
+else:
+print("e daí se não tá certo? tava escrito literalmente "texto"!")
+            </code>
+            </pre>
+            <text>&rarr; A tag <code>&lt;/pre&gt;</code> (pre-formatação) exibe o texto da maneira que ele está no código-fonte</text>
+        </ul>
+
+        <h2>Citação:</h2>
+
+        <h3><code>&lt;/q&gt;</code> short quotation (citação curta/simples)</h3>
+
+        <p><code>&lt;/q&gt;</code> dentro um <code>&lt;/p&gt;</code>:</p>
+        
+        <ul>
+            <p><strong>Ex:</strong> Como diria as vozes da minha cabeça: <q>Quando alguém usa roupas unisex... fica unisexy</q>.</p>
+        </ul>
+
+        <h3><code>&lt;/blockquote&gt;</code> (bloco de citação/citação completa)</h3>
+
+        <p><code>&lt;/blockquote&gt;</code> com o atributo <code>cite</code>:</p>
+
+        <ul>
+            <strong>Ex:</strong>
+            <p>Segundo NEWPORT (2018):</p>            
+            <blockquote cite="https://www.google.com.br/books/edition/Deep_Work_A_concentra%C3%A7%C3%A3o_m%C3%A1xima_num_m/b6ZqDwAAQBAJ?hl=pt-BR">
+                Uma camada de tecido adiposo que cresce em torno dos neurônios, agindo como um isolante que permite que as células funcionem de forma mais rápida e clara.
+            </blockquote>
+            <text><br>&rarr; O atibuto <code>cite</code> (citação) cita no sentido de referenciar a pessoa da citação em questão, referenciando através de um link que será reconhecido pelo navegador, melhorando sua usabilidade. </text>
+            <text><br>&rarr; A tag <code>blockquote</code> recua a citação, distanciando-a da margem esquerda.</text>
+        </ul>
+
+        <h2>Abreviação:</h2>
+        <h3><code>&lt;/abbr&gt;</code> abbreviation (abreviação)</h3>
+        <p><code>&lt;/abbr&gt;</code> com o atributo <code>title</code> dentro de um <code>&lt;/p&gt;</code>:</p>
+
+        <p><strong>Ex:</strong></p>
+        <ul>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Muito massa!</p>
+        <text><br>&rarr; O atributo <code>title</code> indica o título original da abreviação.</text>
+        <text>&rarr; Ao passar o mouse em cima da abreviação, o título original será apresentado.</text>
+        </ul>
+
+        <h2>Texto Invertido (Bônus Inútil?):</h2>
+        <h3><code>&lt;/bdo&gt;</code> bidirectional text override (substituição bidirecional de texto)</h3>
+        <p><code>&lt;/bdo&gt;</code> com o atributo <code>dir</code> dentro de um <code>&lt;/p&gt;</code>:</p>
+        <p><strong>Ex:</strong></p>
+        <ul>
+            <p>Indecisão é uma coisa complicada mesmo: em um momento estou escrevendo da esquerda pra direita, <bdo dir="rtl">no outro da direita pra esquerda</bdo>.</p>
+
+            <text><br>&rarr; O atributo <code>dir</code> permite que direção das letras do texto sejam definidas, sejam elas da esquerda pra direita "<code>ltr</code>" ou da direta pra esquerda "<code>rtl</code>".</text>
+        </ul>
+    </body>
+</html>
