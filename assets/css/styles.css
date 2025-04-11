@@ -1,6 +1,18 @@
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: chocolate;
     background-color: rgb(251, 243, 212);
     display: inline-block;
+    margin: 0 5px;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f7dd9a95;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+.title {
+    background: linear-gradient(to right, rgb(250, 143, 68), chocolate, chocolate);
+    background-clip: text;
+    color: transparent;
 }
