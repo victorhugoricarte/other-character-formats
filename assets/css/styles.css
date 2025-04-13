@@ -4,6 +4,7 @@ body {
     background-color: rgb(252, 247, 228);
     display: inline-block;
     margin: 0 5px;
+    padding: 0 10px;
 }
 code {
     font-family: 'Courier New', Courier, monospace;
@@ -12,7 +13,7 @@ code {
     border-radius: 3px;
 }
 .title {
-    background: linear-gradient(to right, rgb(250, 143, 68), chocolate, chocolate);
+    background: linear-gradient(to right, rgb(250, 159, 94), chocolate, chocolate, chocolate);
     background-clip: text;
     color: transparent;
 }
